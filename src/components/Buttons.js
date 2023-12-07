@@ -10,7 +10,7 @@ const Buttons = ({ expression, setExp }) => {
   useEffect(() => {
     clearExp();
   }, []);
-  
+
   //handle expression to calculate
   const handleExpression = (val) => {
     const length = expression.length;
@@ -154,9 +154,9 @@ const Buttons = ({ expression, setExp }) => {
   };
 
   return (
-    <div className=" py-2 h-100 container">
-      <div className="d-flex flex-column fs-3  gap-3 p-2 h-100 w-100">
-        <div className="col d-flex gap-2 justify-content-between ">
+    <div className="py-2 h-100 container">
+      <div className="d-flex flex-column fs-3 gap-3 p-2 h-100 w-100">
+        <div className="col d-flex gap-2 justify-content-between">
           <div className="btns rounded-circle cancel" onClick={clearExp}>
             C
           </div>
@@ -170,7 +170,7 @@ const Buttons = ({ expression, setExp }) => {
             console log
           </div>
         </div>
-        <div className="col d-flex gap-2 justify-content-between ">
+        <div className="col d-flex gap-2 justify-content-between">
           <div
             className="btns"
             onClick={() => {
@@ -204,7 +204,7 @@ const Buttons = ({ expression, setExp }) => {
             &#247;
           </div>
         </div>
-        <div className="col gap-2 d-flex justify-content-between ">
+        <div className="col gap-2 d-flex justify-content-between">
           <div
             className="btns"
             onClick={() => {
@@ -238,7 +238,7 @@ const Buttons = ({ expression, setExp }) => {
             x
           </div>
         </div>
-        <div className="col d-flex gap-2 justify-content-between ">
+        <div className="col d-flex gap-2 justify-content-between">
           <div
             className="btns"
             onClick={() => {
@@ -272,7 +272,7 @@ const Buttons = ({ expression, setExp }) => {
             -
           </div>
         </div>
-        <div className="col d-flex gap-2 justify-content-between ">
+        <div className="col d-flex gap-2 justify-content-between">
           <div
             className="btns"
             onClick={() => {

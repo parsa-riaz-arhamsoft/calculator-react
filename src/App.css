@@ -16,7 +16,7 @@
   background-color: rgb(172, 194, 202);
   box-shadow: 0px 3px rgb(155, 164, 168) inset;
 }
-.blackclr {
+.black-bg {
   background-color: rgb(31, 30, 30);
 }
 .cancel {
@@ -38,7 +38,7 @@
 .calculator {
   width: 55%;
 }
-.bggray {
+.bg-gray {
   background-color: gray;
 }
 .box {
